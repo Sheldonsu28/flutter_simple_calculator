@@ -13,7 +13,7 @@ void main() {
     var favorites = MyApp();
 
     test('My appp test', () {
-      expect(favorites.getItem.length, 10);
+      expect(favorites.getItem.length, 100);
     });
   });
 }

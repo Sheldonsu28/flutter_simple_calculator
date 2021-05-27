@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  final List<Text> _info = List.generate(10, (i) => Text('item $i'));
+  final List<Text> _info = List.generate(100, (i) => Text('item $i'));
   List<Text> get getItem => _info;
   @override
   Widget build(BuildContext context) {
