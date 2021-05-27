@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  final List<Text> _info = List.generate(100, (i) => Text('item $i'));
+  List<Text> get getItem => _info;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -11,7 +13,7 @@ class MyApp extends StatelessWidget {
           body: GridView.count(
             crossAxisCount: 6,
             crossAxisSpacing: 2,
-            children: List.generate(100, (i) => Text('item $i')),
+            children: _info,
           ),
         ));
   }
