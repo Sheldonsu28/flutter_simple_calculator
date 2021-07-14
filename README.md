@@ -3,7 +3,7 @@
 A very simple calculator made with flutter framework.
 Currently only support operations on two natural numbers.
 
-# what it looks like:
+# What it looks like:
 ![Screenshot_1622429813test](https://user-images.githubusercontent.com/41277350/120133633-7fe88000-c19a-11eb-9320-cb9c4ccaa21f.png)
 
 
